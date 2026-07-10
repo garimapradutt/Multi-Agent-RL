@@ -1,0 +1,52 @@
+
+======================================================================
+SPY: train=2011 days, test=503 days
+======================================================================
+[SPY] Training IMPROVED agent, seed=7 ...
+  test final PnL=+85.98  train final PnL=+195.12
+[SPY] Training IMPROVED agent, seed=13 ...
+  test final PnL=+269.90  train final PnL=+253.24
+[SPY] Training IMPROVED agent, seed=99 ...
+  test final PnL=+250.60  train final PnL=+108.32
+[SPY] Training BASELINE agent, seed=7 ...
+  test final PnL=+485.08
+[SPY] Training BASELINE agent, seed=13 ...
+  test final PnL=+439.63
+[SPY] Training BASELINE agent, seed=99 ...
+  test final PnL=+450.06
+
+[SPY] RESULTS TABLE (test set, mean ± std over seeds/repeats):
+  Improved agent               PnL=+202.16±82.53  Sharpe= +1.31± 0.64  MaxDD= 21.78±18.90
+  Baseline agent               PnL=+458.26±19.44  Sharpe= +1.88± 0.09  MaxDD= 14.04± 2.89
+  Random agent                 PnL=-325.80±60.18  Sharpe= -1.32± 0.27  MaxDD=331.78±56.63
+  Buy-and-hold                 PnL=+448.74± 0.00  Sharpe= +1.83± 0.00  MaxDD= 12.70± 0.00
+  Improved agent (TRAIN, overfit check) PnL=+185.56±59.55  Sharpe= +0.67± 0.16  MaxDD= 30.41± 6.96
+Saved to plots/SPY_four_strategy_pnl.png
+
+======================================================================
+NSEI: train=1965 days, test=492 days
+======================================================================
+[NSEI] Training IMPROVED agent, seed=7 ...
+  test final PnL=+295.24  train final PnL=+356.11
+[NSEI] Training IMPROVED agent, seed=13 ...
+  test final PnL=+223.07  train final PnL=+281.81
+[NSEI] Training IMPROVED agent, seed=99 ...
+  test final PnL=+319.01  train final PnL=+241.66
+[NSEI] Training BASELINE agent, seed=7 ...
+  test final PnL=+413.10
+[NSEI] Training BASELINE agent, seed=13 ...
+  test final PnL=+404.20
+[NSEI] Training BASELINE agent, seed=99 ...
+  test final PnL=+302.37
+
+[NSEI] RESULTS TABLE (test set, mean ± std over seeds/repeats):
+  Improved agent               PnL=+279.11±40.80  Sharpe= +1.25± 0.17  MaxDD= 18.14± 3.91
+  Baseline agent               PnL=+373.22±50.23  Sharpe= +1.52± 0.22  MaxDD= 14.56± 1.34
+  Random agent                 PnL=-315.60±36.19  Sharpe= -1.34± 0.17  MaxDD=321.64±33.08
+  Buy-and-hold                 PnL=+377.18± 0.00  Sharpe= +1.62± 0.00  MaxDD= 11.60± 0.00
+  Improved agent (TRAIN, overfit check) PnL=+293.19±47.41  Sharpe= +0.96± 0.11  MaxDD= 31.89± 9.86
+Saved to plots/NSEI_four_strategy_pnl.png
+
+Saved results/results.json
+
+ALL DONE.

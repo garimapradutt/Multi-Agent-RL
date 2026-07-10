@@ -1,0 +1,90 @@
+{
+  "SPY": {
+    "train_days": 2011,
+    "test_days": 503,
+    "improved_test": {
+      "final_pnl_mean": 202.157679867071,
+      "final_pnl_std": 82.52812060934296,
+      "sharpe_mean": 1.313930855843206,
+      "sharpe_std": 0.6408464510944132,
+      "max_drawdown_mean": 21.784844029227752,
+      "max_drawdown_std": 18.90138045463731
+    },
+    "baseline_test": {
+      "final_pnl_mean": 458.25616018159343,
+      "final_pnl_std": 19.440193313826015,
+      "sharpe_mean": 1.8783798145810569,
+      "sharpe_std": 0.09458584071365905,
+      "max_drawdown_mean": 14.036984365952437,
+      "max_drawdown_std": 2.894659708721397
+    },
+    "random_test": {
+      "final_pnl_mean": -325.79853970434243,
+      "final_pnl_std": 60.18485859919245,
+      "sharpe_mean": -1.3179747564754107,
+      "sharpe_std": 0.2664141086629091,
+      "max_drawdown_mean": 331.77663372890817,
+      "max_drawdown_std": 56.632420638711416
+    },
+    "buy_and_hold_test": {
+      "final_pnl_mean": 448.73877012381803,
+      "final_pnl_std": 0.0,
+      "sharpe_mean": 1.82741683510439,
+      "sharpe_std": 0.0,
+      "max_drawdown_mean": 12.700994714458844,
+      "max_drawdown_std": 0.0
+    },
+    "improved_train": {
+      "final_pnl_mean": 185.55942351157327,
+      "final_pnl_std": 59.55031436442195,
+      "sharpe_mean": 0.6734012986156803,
+      "sharpe_std": 0.15887944418013258,
+      "max_drawdown_mean": 30.41455576705681,
+      "max_drawdown_std": 6.955692469083605
+    }
+  },
+  "NSEI": {
+    "train_days": 1965,
+    "test_days": 492,
+    "improved_test": {
+      "final_pnl_mean": 279.1059763271478,
+      "final_pnl_std": 40.79776432683993,
+      "sharpe_mean": 1.249042822115262,
+      "sharpe_std": 0.17032300531330644,
+      "max_drawdown_mean": 18.1351833937044,
+      "max_drawdown_std": 3.9095388084911122
+    },
+    "baseline_test": {
+      "final_pnl_mean": 373.2232320848389,
+      "final_pnl_std": 50.230627543317,
+      "sharpe_mean": 1.5199973213084437,
+      "sharpe_std": 0.2227806711941234,
+      "max_drawdown_mean": 14.55971767705978,
+      "max_drawdown_std": 1.3358332482007755
+    },
+    "random_test": {
+      "final_pnl_mean": -315.59970735787243,
+      "final_pnl_std": 36.1928450481837,
+      "sharpe_mean": -1.3424043197553168,
+      "sharpe_std": 0.16968112391036924,
+      "max_drawdown_mean": 321.6355499046872,
+      "max_drawdown_std": 33.080895870972974
+    },
+    "buy_and_hold_test": {
+      "final_pnl_mean": 377.1844009429689,
+      "final_pnl_std": 0.0,
+      "sharpe_mean": 1.6160262012871627,
+      "sharpe_std": 0.0,
+      "max_drawdown_mean": 11.597052770869055,
+      "max_drawdown_std": 0.0
+    },
+    "improved_train": {
+      "final_pnl_mean": 293.1936605506055,
+      "final_pnl_std": 47.41164773143224,
+      "sharpe_mean": 0.9627491790250522,
+      "sharpe_std": 0.11089166283116772,
+      "max_drawdown_mean": 31.891455232595902,
+      "max_drawdown_std": 9.864463118379325
+    }
+  }
+}
